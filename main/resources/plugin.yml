@@ -1,0 +1,15 @@
+name: SkylaskSheep
+main: me.MC_Elmo.SkylaskSheep.SkylaskSheep
+version: 1.0
+author: MC_Elmo
+description: This plugin makes sheep spawn in random colors, which are configurable
+
+commands:
+  skylasksheep:
+     description: Base Command for SkylaskSheep
+     aliases: [ss]
+     usage: /<command>
+permissions:
+   skylasksheep.reload:
+      description: Reload plugin
+      default: op
